@@ -1,23 +1,71 @@
-# Proyecto: Amigo Secreto
+# 🎁 Amigo Secreto - Sorteo Interactivo con JavaScript
 
-Este es un proyecto simple en JavaScript que permite a los usuarios agregar nombres de amigos a una lista y realizar un sorteo para determinar el "amigo secreto". Los usuarios pueden agregar nombres, ver la lista de amigos y, al presionar un botón, sortear un amigo secreto de forma aleatoria.
+Una aplicación  **JavaScript**. web sencilla que permite agregar nombres, realizar un sorteo de amigo secreto y reiniciar el juego con un botón de "Nuevo sorteo".
 
-## Funcionalidades
+## 📋 Características
 
-- **Agregar amigos**: El usuario puede ingresar el nombre de sus amigos en un campo de texto y hacer clic en el botón "Añadir" para agregar el nombre a una lista visible.
-- **Mostrar lista de amigos**: Los nombres de los amigos agregados se muestran en una lista ordenada en la página.
-- **Sortear amigo secreto**: Al presionar el botón "Sortear amigo", el sistema seleccionará aleatoriamente un amigo secreto de la lista y lo mostrará en pantalla.
+- Agregar nombres de amigos a una lista.
+- Validar que el campo no esté vacío y que no contenga números.
+- Formatear automáticamente el nombre con la primera letra en mayúscula.
+- Realizar el sorteo aleatorio de un "amigo secreto".
+- Mostrar el resultado en pantalla.
+- Botón "Nuevo sorteo" para reiniciar la aplicación.
 
-## Tecnologías
+## 📂 Estructura del proyecto
 
-- **HTML**: Estructura básica de la página.
-- **CSS**: Estilos para hacer la interfaz más atractiva (puedes personalizarlo más si lo deseas).
-- **JavaScript**: Lógica para agregar amigos a la lista, mostrar la lista y realizar el sorteo.
+```
+Amigo-Secreto/
+├── index.html     // Estructura principal de la aplicación
+├── style.css      // Estilos para mejorar la apariencia
+└── app.js        // Lógica de la aplicación (JavaScript)
+```
+
+## 🚀 Cómo usar
+
+1. Clona este repositorio:
+
+   ```bash
+   git clone https://github.com/lezamairilis/amigo-secreto.git
+   ```
+
+2. Accede al directorio del proyecto:
+
+   ```bash
+   cd amigo-secreto
+   ```
+
+3. Abre el archivo `index.html` en tu navegador.
+
+## 🛠️ Requisitos
+
+- Navegador web moderno (Google Chrome, Firefox, Edge, etc.)
+
+## 📖 Cómo funciona
+
+1. Ingresa el nombre de tus amigos uno por uno y haz clic en **"Añadir"**.
+2. Una vez que tengas al menos **dos amigos**, presiona **"Sortear amigo"**.
+3. El sistema elegirá un amigo al azar y lo mostrará en pantalla.
+4. Puedes realizar un **Nuevo sorteo** utilizando el botón que aparece después del sorteo.
+
+## 📸 Vista previa
+![image](https://github.com/user-attachments/assets/3f6ad84a-ca27-49fb-8492-32e173832038)
 
 
-## Licencia
+
+## 📌 Mejoras futuras
+
+- Validar nombres duplicados.
+- Mejorar el diseño visual con animaciones.
+- Opción para exportar o compartir los resultados.
+
+## 📄 Licencia
 
 Este proyecto está bajo la licencia MIT. ¡Eres libre de usarlo, modificarlo y compartirlo! 😊
+
+---
+
+💡 **¡Disfruta sorteando tu Amigo Secreto!**
+
 
 ## Autor
 
